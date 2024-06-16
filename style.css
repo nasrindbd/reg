@@ -1,0 +1,59 @@
+h2{text-align: center; font-style: oblique;}
+
+*{margin:0px;padding:0px;
+}
+body{background-image: url(images/lavender.png);
+background-size: cover;
+font-family:sans-serif;
+display: flex;
+height:90vh;
+align-items: center;
+justify-content: center;
+}
+.Register-now{ width: 330px;
+ height: 450px;
+padding: 30px;
+border: 5px solid #34495e;
+boarder-radius:10px;
+outline: none;
+background: rgba(red, green, blue)
+}
+form h2{color: blue;}
+.input-style{margin-top: 10px;}
+.input-style input{width: 90%;
+    background: transparent;
+    padding: 3px;
+    border: 2px solid #16a;
+    border-radius: 5px;
+    color:black;
+    outline: none;
+    height:10px;
+    margin-bottom: 10px;
+}
+
+.input-style label{
+    color: black;
+    margin-bottom: 4px;
+    display: block;
+    font-size: 15px;
+    cursor: pointer;
+    padding:1px
+}
+.gender p{ color: black;
+margin-top: 4px;}
+.option{color:black ;
+    cursor: pointer;
+}
+.registration-form input{
+    width:90%;
+    margin-top: 15px;
+    background:linear-gradient(130deg,#16a,#34495e);
+    padding: 10px;
+    outline: none;
+    border-radius:5px;
+    cursor:pointer;
+    color: #16a,#34495e;
+}
+.registration-form input:hover{
+    background:linear-gradient(-130deg,#16a,#34495e) ;
+}
